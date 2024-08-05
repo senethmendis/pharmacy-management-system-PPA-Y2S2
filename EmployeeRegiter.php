@@ -62,8 +62,8 @@ if (isset($_POST['registerbtn'])) {
                         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                         $mail->Port = 587;
 
-                        $mail->Username = "ppademo2022@gmail.com";
-                        $mail->Password = "kwnqrxwajdldiwag";
+                        $mail->Username = "";
+                        $mail->Password = "";
 
                         $mail->setFrom($email,  "LifeCare Pharmacy");
                         $mail->addAddress($email, "lifecareTest");
