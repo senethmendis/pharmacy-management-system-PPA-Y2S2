@@ -31,8 +31,8 @@ if (isset($_POST['readytopic'])){
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     $mail->Port = 587;
 
-    $mail->Username = "ppademo2022@gmail.com";
-    $mail->Password = "kwnqrxwajdldiwag";
+    $mail->Username = "";
+    $mail->Password = "";
 
     $mail->setFrom($order_email,  "LifeCare Pharmacy");
     $mail->addAddress($order_email, "lifecareTest");
