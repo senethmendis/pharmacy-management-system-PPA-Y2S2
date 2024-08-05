@@ -3,9 +3,9 @@
 class Invoice
 {
     private $host = 'localhost';
-    private $user = 'id19923063_root';
-    private $password = "g51EO0\=NeH!rxjX";
-    private $database = "id19923063_lifecaredb";
+    private $user = '';
+    private $password = "";
+    private $database = "";
     private $invoiceUserTable = 'invoice_user';
     private $invoiceOrderTable = 'invoice_order';
     private $invoiceOrderItemTable = 'invoice_order_item';
